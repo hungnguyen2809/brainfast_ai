@@ -1,3 +1,32 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "plugins": ["react", "prettier", "@typescript-eslint"],
+  "rules": {
+    "no-console": "warn",
+    "prefer-const": "error",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "prettier/prettier": [
+      "warn",
+      {
+        "arrowParens": "always",
+        "bracketSpacing": true,
+        "embeddedLanguageFormatting": "auto",
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 120,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "es5",
+        "useTabs": false,
+        "endOfLine": "auto",
+        "vueIndentScriptAndStyle": false
+      }
+    ]
+  }
 }

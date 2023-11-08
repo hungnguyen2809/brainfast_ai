@@ -1,0 +1,7 @@
+"use client";
+
+function LandingError() {
+  return <div>LandingError</div>;
+}
+
+export default LandingError;
