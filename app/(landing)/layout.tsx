@@ -5,7 +5,7 @@ type LayoutProps = {
 };
 
 function LandingLayout({ children }: LayoutProps) {
-  return <div>{children}</div>;
+  return <section>{children}</section>;
 }
 
 export default LandingLayout;

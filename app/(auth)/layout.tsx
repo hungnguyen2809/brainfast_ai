@@ -5,7 +5,7 @@ type LayoutProps = {
 };
 
 function AuthLayout({ children }: LayoutProps) {
-  return <div>{children}</div>;
+  return <section>{children}</section>;
 }
 
 export default AuthLayout;

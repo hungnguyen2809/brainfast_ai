@@ -1,7 +1,11 @@
 import { SignIn } from '@clerk/nextjs';
 
-function Page() {
-  return <SignIn />;
+function SignInPage() {
+  return (
+    <section className="h-screen flex justify-center items-center">
+      <SignIn />
+    </section>
+  );
 }
 
-export default Page;
+export default SignInPage;
