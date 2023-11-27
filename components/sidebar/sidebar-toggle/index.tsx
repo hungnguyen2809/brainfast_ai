@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils';
 import { useSidebarStore } from '@/stores/sidebar-store';
 import { X } from 'lucide-react';
 import Image from 'next/image';
-import { Button } from '../../ui';
+import { Button } from '../../ui/button';
 
 function SidebarToggle() {
   const { isMinimal, onToggleSidebar, onToggleMinimalSidebar } = useSidebarStore();

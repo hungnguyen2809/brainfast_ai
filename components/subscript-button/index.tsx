@@ -2,7 +2,8 @@ import { apis } from '@/apis';
 import { cn } from '@/lib/utils';
 import { Sparkles } from 'lucide-react';
 import { useState } from 'react';
-import { Button, useToast } from '../ui';
+import { Button } from '../ui/button';
+import { useToast } from '../ui/use-toast';
 
 type SubscriptButttonProps = {
   isPro?: boolean;

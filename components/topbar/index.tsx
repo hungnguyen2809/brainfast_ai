@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import { useSidebarStore } from '@/stores/sidebar-store';
 import { Menu } from 'lucide-react';
 import Logo from '../logo';
-import { Button } from '../ui';
+import { Button } from '../ui/button';
 
 function TopBar() {
   const { onToggleSidebar } = useSidebarStore();

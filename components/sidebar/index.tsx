@@ -6,7 +6,7 @@ import { useSidebarStore } from '@/stores/sidebar-store';
 import { UserButton, useUser } from '@clerk/nextjs';
 import Logo from '../logo';
 import SubscriptButtton from '../subscript-button';
-import { Progress } from '../ui';
+import { Progress } from '../ui/progress';
 import MobileSidebar from './mobile-sidebar';
 import Navbar from './navbar';
 import SidebarToggle from './sidebar-toggle';
