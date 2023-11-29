@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const apis = {
+export const axiosClient = {
   supcriptStripe: () => {
     return axios.get('/api/stripe');
   },

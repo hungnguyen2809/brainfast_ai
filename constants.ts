@@ -1,3 +1,5 @@
+import { ToolType } from './types/common';
+
 export const MAX_FREE_COUNTS = 5;
 
 export const THEME_MODES = [
@@ -11,7 +13,7 @@ export const THEME_MODES = [
   },
 ];
 
-export const TOOLS = [
+export const TOOLS: ToolType[] = [
   {
     title: 'Conversation',
     icon: '/icons/conversation.svg',

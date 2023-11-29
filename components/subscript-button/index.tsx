@@ -1,4 +1,4 @@
-import { apis } from '@/apis';
+import { axiosClient } from '@/axiosClient';
 import { cn } from '@/lib/utils';
 import { Sparkles } from 'lucide-react';
 import { useState } from 'react';
@@ -18,7 +18,7 @@ function SubscriptButtton({ isPro, className }: SubscriptButttonProps) {
   const handleSubcribe = async () => {
     try {
       setLoading(true);
-      await apis.supcriptStripe();
+      await axiosClient.supcriptStripe();
     } catch (error) {
       toast({ variant: 'destructive', description: 'Something went wrong. Please try again' });
     } finally {
